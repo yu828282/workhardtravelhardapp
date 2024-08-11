@@ -206,7 +206,7 @@ const styles = StyleSheet.create({
   },
   btnText : {
     fontSize : 44,
-    fontWeight: 600,
+    fontWeight: '600',  // 숫자에서 문자열로 변경
     color : '#fff',
   },
   input : {
@@ -230,7 +230,7 @@ const styles = StyleSheet.create({
   toDoText : {
     color : 'white',
     fontSize : 16,
-    fontWeight : 500,
+    fontWeight: '500',  // 숫자에서 문자열로 변경
   },
   icons: {
     margin: 5,
@@ -243,7 +243,7 @@ const styles = StyleSheet.create({
   editInput: {
     width: 180,
     fontSize: 16,
-    fontWeight: "500",
+    fontWeight: '500',  // 숫자에서 문자열로 변경
     color: "white",
     borderBottomColor: "white",
     borderBottomWidth: 2,
